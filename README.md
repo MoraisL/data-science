@@ -1,5 +1,5 @@
-# data-scienc
-
+# Ciência de dados
+## Por: Vinícius de Morais Lino
 # Guia de Estudo e Trilha de conhecimento em Ciência de Dados
 
 Bem-vindo ao seu repositório de estudo sobre Ciência de Dados! Este guia fornecerá uma introdução rápida aos conceitos fundamentais de Análise de Dados e Machine Learning.
