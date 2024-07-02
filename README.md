@@ -1,4 +1,4 @@
-# Ciência de dados
+# Ciência de dados 🔬
 ## Por: Vinícius de Morais Lino
 # Guia de Estudo e Trilha de conhecimento em Ciência de Dados
 
@@ -42,7 +42,7 @@ Ambas as áreas são essenciais para transformar dados em insights acionáveis e
 8. [Regressão Linear](#regressão-linear)
 9. [Redes Neurais](#redes-neurais)
 
-## Instalação do Python
+## Instalação do Python 🐍
 
 1. Acesse o [site oficial do Python](https://www.python.org/).
 2. Baixe e instale o Python para o seu sistema operacional.
@@ -78,7 +78,7 @@ print(np.std(arr))
 
 ```
 
-### Matplotlib
+### Matplotlib 🧮
 Matplotlib é uma biblioteca para criação de visualizações em gráficos.
 ```
 import matplotlib.pyplot as plt
@@ -92,7 +92,7 @@ plt.title('Exemplo de Gráfico')
 plt.show()
 
 ```
-## Cálculos Importantes em Análise de Dados
+## Cálculos Importantes em Análise de Dados ➗
 Alguns cálculos são fundamentais em Análise de Dados, incluindo:
 
 Média: np.mean(data)
@@ -101,7 +101,7 @@ Desvio Padrão: np.std(data)
 Correlação: np.corrcoef(data)
 
 
-### K-Means
+### K-Means 👥
 K-Means é um algoritmo de clustering usado para agrupar pontos de dados em clusters. Ele funciona atribuindo pontos de dados a um cluster com base na proximidade média dos pontos de dados dentro do cluster. Exemplo:
 ```
 import numpy as np
@@ -117,7 +117,7 @@ plt.show()
 
 ```
 
-### Regressão Linear
+### Regressão Linear 📈
 A regressão linear é uma técnica usada para prever o valor de uma variável com base em outra variável. Exemplo:
 
 ```
@@ -137,7 +137,7 @@ print(predictions)
 ```
 
 
-### Redes Neurais
+### Redes Neurais 🧬
 Redes Neurais são modelos computacionais inspirados no cérebro humano, usados para reconhecer padrões complexos. Exemplo:
 
 ```
