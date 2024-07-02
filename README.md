@@ -117,6 +117,38 @@ plt.show()
 
 ```
 
+
+### Detecção de Anomalias 🧫
+
+A detecção de anomalias, também conhecida como detecção de outliers, é uma técnica essencial em análise de dados para identificar padrões incomuns ou pontos de dados que se desviam significativamente do restante do conjunto. É útil em diversas aplicações, como detecção de fraudes, monitoramento de sistemas e qualidade de produção.
+
+#### Exemplo de Detecção de Anomalias
+
+Imagine um conjunto de dados de transações financeiras. Utilizando métodos estatísticos ou algoritmos de machine learning, podemos detectar transações suspeitas que se desviam do comportamento típico. Por exemplo, uma transação com um valor muito acima da média das transações diárias pode ser identificada como uma anomalia potencial. Exemplo:
+
+```
+import numpy as np
+import pandas as pd
+
+# Exemplo de dados de transações financeiras (valores fictícios)
+dados = pd.DataFrame({
+    'valor': [100, 150, 120, 95, 130, 200, 110, 1000, 115, 105]
+})
+
+# Calculando o Z-score para identificar anomalias
+media = np.mean(dados['valor'])
+desvio_padrao = np.std(dados['valor'])
+limite_anomalia = 3 * desvio_padrao  # Limite de 3 desvios padrão
+
+# Detectando anomalias com base no Z-score
+dados['z_score'] = (dados['valor'] - media) / desvio_padrao
+dados['anomalia'] = dados['z_score'].apply(lambda x: x > 3 or x < -3)
+
+# Exibindo os dados com a marcação de anomalias
+print(dados)
+
+```
+
 ### Regressão Linear 📈
 A regressão linear é uma técnica usada para prever o valor de uma variável com base em outra variável. Exemplo:
 
