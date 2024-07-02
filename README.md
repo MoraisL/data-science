@@ -4,7 +4,7 @@
 
 Bem-vindo ao seu repositório de estudo sobre Ciência de Dados! Este guia fornecerá uma introdução rápida aos conceitos fundamentais de Análise de Dados e Machine Learning.
 
-# Análise de Dados e Machine Learning
+# Análise de Dados e Machine Learning 🤖
 
 A análise de dados e o machine learning são áreas fundamentais da ciência de dados que permitem extrair insights valiosos e construir modelos preditivos a partir de conjuntos de dados.
 
