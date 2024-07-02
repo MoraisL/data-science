@@ -91,6 +91,26 @@ plt.show()
 
 ```
 
+### Regressão Linear
+A regressão linear é uma técnica usada para prever o valor de uma variável com base em outra variável. Exemplo:
+
+```
+from sklearn.linear_model import LinearRegression
+
+# Dados de exemplo
+X = np.array([[1], [2], [3], [4]])
+y = np.array([10, 20, 25, 30])
+
+# Aplicando regressão linear
+model = LinearRegression().fit(X, y)
+
+# Fazendo previsões
+predictions = model.predict(X)
+print(predictions)
+
+```
+
+
 ### Redes Neurais
 Redes Neurais são modelos computacionais inspirados no cérebro humano, usados para reconhecer padrões complexos. Exemplo:
 
